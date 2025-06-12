@@ -1,0 +1,16 @@
+{
+    "name": "ricardolima/studies-prep1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricardo Lima",
+            "email": "luizricardodelima9@gmail.com"
+        }
+    ],
+    "require": {}
+}
