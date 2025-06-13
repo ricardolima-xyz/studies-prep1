@@ -12,13 +12,6 @@ use App\Discount\PercentageDiscountStrategy;
 use App\Discount\AbsoluteValueDiscountStrategy;
 
 $catalogService = new CatalogService();
-/*
-$catalogService->addProduct(new Product(new ProductId(uniqid()), 'Laptop', 999.99));
-$catalogService->addProduct(new Product(new ProductId(uniqid()), 'Smartphone', 499.99));
-$catalogService->addProduct(new Product(new ProductId(uniqid()), 'Tablet', 299.99));
-$catalogService->addProduct(new Product(new ProductId(uniqid()), 'Smartwatch', 199.99));
-$catalogService->addProduct(new Product(new ProductId(uniqid()), 'Headphones', 89.99));
-*/
 
 $productData = [
     ['id' => '1', 'name' => 'Laptop', 'price' => 999.99],
