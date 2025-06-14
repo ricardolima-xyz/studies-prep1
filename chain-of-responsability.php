@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 require_once 'vendor/autoload.php';
 
-use App\Ticket\Ticket;
-use App\Ticket\Level1Support;
-use App\Ticket\Level2Support;
-use App\Ticket\Level3Support;
+use App\ChainOfResponsability\Ticket;
+use App\ChainOfResponsability\Level1Support;
+use App\ChainOfResponsability\Level2Support;
+use App\ChainOfResponsability\Level3Support;
 
 
 // Instantiate handlers

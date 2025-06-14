@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Ticket;
-use App\Ticket\Ticket;
-use App\Ticket\TicketHandler;
+namespace App\ChainOfResponsability;
 
+use App\ChainOfResponsability\Ticket;
+use App\ChainOfResponsability\TicketHandler;
 
-class Level1Support implements TicketHandler
+class Level2Support implements TicketHandler
 {
     private ?TicketHandler $next = null;
 
@@ -18,8 +18,8 @@ class Level1Support implements TicketHandler
 
     public function handle(Ticket $ticket): ?string
     {
-        if ($ticket->priority === 1) {
-            return "Level 1 Support handled ticket: {$ticket->title}";
+        if ($ticket->priority === 2) {
+            return "Level 2 Support handled ticket: {$ticket->title}";
         }
 
         if ($this->next) {

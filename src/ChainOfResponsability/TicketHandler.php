@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Ticket;
+namespace App\ChainOfResponsability;
 
-use App\Ticket\Ticket;
+use App\ChainOfResponsability\Ticket;
 
 interface TicketHandler
 {
