@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-namespace App\Notification;
+namespace App\Adapter\Notification;
 
 class EmailSender implements NotificationSender {
     public function send(string $message): void {

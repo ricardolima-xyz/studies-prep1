@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace App\Adapter;
+namespace App\Adapter\Adapter;
 
-use App\Legacy\SlackSDK;
-use App\Notification\NotificationSender;
+use App\Adapter\Legacy\SlackSDK;
+use App\Adapter\Notification\NotificationSender;
 
 
 class SlackAdapter implements NotificationSender {

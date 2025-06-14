@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace App\Legacy;
+namespace App\Adapter\Legacy;
 
 class ThirdPartySMS {
     public function sendText(string $text): void {

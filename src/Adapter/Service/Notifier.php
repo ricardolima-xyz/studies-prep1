@@ -1,7 +1,7 @@
 <?php
-namespace App\Service;
+namespace App\Adapter\Service;
 
-use App\Notification\NotificationSender;
+use App\Adapter\Notification\NotificationSender;
 
 class Notifier
 {

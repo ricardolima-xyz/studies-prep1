@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace App\Adapter;
+namespace App\Adapter\Adapter;
 
-use App\Notification\NotificationSender;
-use App\Legacy\ThirdPartySMS;
+use App\Adapter\Notification\NotificationSender;
+use App\Adapter\Legacy\ThirdPartySMS;
 
 class SMSAdapter implements NotificationSender {
     private ThirdPartySMS $smsService;

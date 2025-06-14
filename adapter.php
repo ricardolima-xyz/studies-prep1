@@ -1,14 +1,15 @@
+#!/usr/bin/env php
 <?php
 
 declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\Service\Notifier;
-use App\Notification\EmailSender;
-use App\Adapter\SMSAdapter;
-use App\Legacy\ThirdPartySMS;
-use App\Adapter\SlackAdapter;
-use App\Legacy\SlackSDK;
+use App\Adapter\Service\Notifier;
+use App\Adapter\Notification\EmailSender;
+use App\Adapter\Adapter\SMSAdapter;
+use App\Adapter\Legacy\ThirdPartySMS;
+use App\Adapter\Adapter\SlackAdapter;
+use App\Adapter\Legacy\SlackSDK;
 
 
 // Send via email
