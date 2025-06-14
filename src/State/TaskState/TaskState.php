@@ -1,7 +1,7 @@
 <?php
-namespace App\TaskState;
+namespace App\State\TaskState;
 
-use App\Task\Task;
+use App\State\Task\Task;
 
 interface TaskState
 {

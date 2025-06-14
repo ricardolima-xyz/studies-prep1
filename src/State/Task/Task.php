@@ -1,8 +1,8 @@
 <?php
-namespace App\Task;
+namespace App\State\Task;
 
-use App\TaskState\TaskState;
-use App\TaskState\ToDoState;
+use App\State\TaskState\TaskState;
+use App\State\TaskState\ToDoState;
 
 class Task
 {

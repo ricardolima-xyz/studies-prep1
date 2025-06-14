@@ -3,10 +3,9 @@
 declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\Task\Task;
-use App\TaskState\ToDoState;
-use App\TaskState\InProgressState;
-use App\TaskState\CompletedState;
+use App\State\Task\Task;
+use App\State\TaskState\InProgressState;
+use App\State\TaskState\CompletedState;
 
 // Create a new Task
 $task = new Task("Write documentation");
