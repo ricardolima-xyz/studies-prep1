@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Command;
 
-use App\Device\Light;
+use App\Command\Device\Light;
 use App\Command\Command;
 
 class TurnLightOnCommand implements Command

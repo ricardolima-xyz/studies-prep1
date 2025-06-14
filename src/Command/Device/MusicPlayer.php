@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Device;
+namespace App\Command\Device;
 
 class MusicPlayer
 {

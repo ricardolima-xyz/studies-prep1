@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\Device\Light;
-use App\Device\MusicPlayer;
+use App\Command\Device\Light;
+use App\Command\Device\MusicPlayer;
 use App\Command\TurnLightOnCommand;
 use App\Command\TurnLightOffCommand;
 use App\Command\PlayMusicCommand;
 use App\Command\StopMusicCommand;
-use App\Command\Command;
 use App\Command\RemoteControl;
 
 $light = new Light();
