@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\UI\DarkUIFactory;
-use App\UI\LightUIFactory;
-use App\UI\Renderer;
+use App\AbstractFactory\DarkUIFactory;
+use App\AbstractFactory\LightUIFactory;
+use App\AbstractFactory\Renderer;
 
 // Render with Light Theme
 echo "Rendering with Light Theme:\n";

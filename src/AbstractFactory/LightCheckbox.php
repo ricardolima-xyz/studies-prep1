@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\UI;
+namespace App\AbstractFactory;
 
-use App\UI\Checkbox;
+use App\AbstractFactory\Checkbox;
 
 class LightCheckbox implements Checkbox
 {

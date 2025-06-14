@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\UI;
+namespace App\AbstractFactory;
 
-use App\UI\UIFactory;
-use App\UI\Button;
-use App\UI\Checkbox;
+use App\AbstractFactory\UIFactory;
+use App\AbstractFactory\Button;
+use App\AbstractFactory\Checkbox;
 
 class DarkUIFactory implements UIFactory
 {

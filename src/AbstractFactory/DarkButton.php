@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\UI;
+namespace App\AbstractFactory;
 
-use App\UI\Button;
+use App\AbstractFactory\Button;
 
 class DarkButton implements Button
 {
