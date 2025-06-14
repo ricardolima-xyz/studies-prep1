@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\PriceCalculator;
+namespace App\Composite;
 
 interface PriceCalculator
 {

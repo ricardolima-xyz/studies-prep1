@@ -3,10 +3,9 @@
 declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\PriceCalculator\PriceCalculator;
-use App\PriceCalculator\BasePrice;
-use App\PriceCalculator\ShippingDecorator;
-use App\PriceCalculator\TaxDecorator;
+use App\Composite\BasePrice;
+use App\Composite\ShippingDecorator;
+use App\Composite\TaxDecorator;
 
 // Example usage of the PriceCalculator with decorators
 $basePrice = new BasePrice(100.00);

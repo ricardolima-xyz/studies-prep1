@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\PriceCalculator;
+namespace App\Composite;
 
-use App\PriceCalculator\PriceCalculator;
+use App\Composite\PriceCalculator;
 
 use InvalidArgumentException;
 
