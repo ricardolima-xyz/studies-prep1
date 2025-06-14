@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Factory;
+namespace App\FactoryMethod;
 
-use App\Model\Product;
-use App\Model\ProductId;
+use App\FactoryMethod\Product;
+use App\FactoryMethod\ProductId;
 use InvalidArgumentException;
 
 class ProductFactory

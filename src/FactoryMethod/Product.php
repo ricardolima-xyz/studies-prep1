@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Model;
+namespace App\FactoryMethod;
 
-use App\Model\ProductId;
-use App\Discount\DiscountStrategy;
-use App\Discount\NoDiscountStrategy;
+use App\FactoryMethod\ProductId;
+use App\Strategy\DiscountStrategy;
+use App\Strategy\NoDiscountStrategy;
 
 class Product
 {

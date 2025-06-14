@@ -2,14 +2,16 @@
 declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
 
-use App\Service\CatalogService;
-use App\Model\Product;
-use App\Model\ProductId;
-use App\Factory\ProductFactory;
-use App\Discount\DiscountStrategy;
-use App\Discount\NoDiscountStrategy;
-use App\Discount\PercentageDiscountStrategy;
-use App\Discount\AbsoluteValueDiscountStrategy;
+// This example reuses code from the Factory Method pattern to create products,
+// demonstrating how to apply different discount strategies to products in a catalog.
+// Together with Strategy design pattern, this example demonstrates the use of the Value Objects
+
+use App\FactoryMethod\CatalogService;
+use App\FactoryMethod\ProductId;
+use App\FactoryMethod\ProductFactory;
+use App\Strategy\NoDiscountStrategy;
+use App\Strategy\PercentageDiscountStrategy;
+use App\Strategy\AbsoluteValueDiscountStrategy;
 
 $catalogService = new CatalogService();
 

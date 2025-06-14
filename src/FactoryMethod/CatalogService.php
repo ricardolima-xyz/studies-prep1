@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Service;
+namespace App\FactoryMethod;
 
-use App\Model\Product;
-use App\Model\ProductId;
+use App\FactoryMethod\Product;
+use App\FactoryMethod\ProductId;
 
 class CatalogService
 {

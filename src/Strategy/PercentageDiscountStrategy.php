@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Discount;
+namespace App\Strategy;
 
 class PercentageDiscountStrategy implements DiscountStrategy
 {
