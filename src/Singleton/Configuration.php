@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Core;
+namespace App\Singleton;
 
 final class Configuration
 {
@@ -43,8 +43,8 @@ final class Configuration
         self::write_ini_file(self::$fileName, $this->settings);
     }
     
-    private function __clone() {}
-    private function __wakeup() {}
+    public function __clone() {}
+    public function __wakeup() {}
 
     /**
      * Write an ini configuration file
